@@ -1,7 +1,6 @@
 
 %% 1 pre-map settings
 
-% a and b must be added
 way = zeros(100,200);
 way(1,1) = 1;
 [targetx,targety,map] = rand_Map_Tar(); %% used in tests
@@ -120,7 +119,7 @@ function [tx,ty,map] = rand_Map_Tar() % random map and target generated
             
         end
 
-%         spy(map); % binary matrix çizdirme
+%         spy(map); % binary matrix Ã§izdirme
 %         hold on
         
 end
